@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #1e1e1e;
+    color: white;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px 16px;
+    width: 150px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.back-button:hover {
+    background-color: #c0392b;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    padding-top: 1px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.driver-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.driver-info-container h2 {
+    text-align: left;
+    font-size: 55px;
+    color: #333;
+    width: 100%;
+}
+
+.driver-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 60%; /* Makes the info section a little narrower */
+    text-align: left;
+    padding-top: 20px; /* Add equal padding to the top and bottom */
+    padding-bottom: 20px;
+}
+
+.driver-info .info-item {
+    font-size: 35px;
+    color: #555;
+}
+
+.info-item span {
+    font-weight: bold;
+}
+
+.driver-image {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.driver-image img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.biography-container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 50px auto;
+}
+
+.biography-container h2 {
+    font-size: 50px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.biography-container p {
+    font-size: 22px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}

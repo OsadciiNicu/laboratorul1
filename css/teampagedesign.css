@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #1e1e1e;
+    color: white;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px 16px;
+    width: 150px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.back-button:hover {
+    background-color: #c0392b;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-info-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.team-info-container h2 {
+    text-align: left;
+    font-size: 36px;
+    color: #333;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.team-info .info-item {
+    font-size: 28px;
+    color: #555;
+}
+
+.info-item span {
+    font-weight: bold;
+}
+
+.drivers-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.drivers-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.driver-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    height: 200px;
+    width: 93%;
+    gap: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.driver-box:hover {
+    background-color: #e9e9e9;
+}
+
+.driver-box img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
