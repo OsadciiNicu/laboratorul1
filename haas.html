@@ -3,57 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoneyGram Haas F1 Team</title>
+    <title>MoneyGram Haas F1 Team | 2025 F1 Championship</title>
     <link rel="stylesheet" href="css/teampagedesign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" type="image/png">
 </head>
 <body>
 
-    <header>
-        <h1>MoneyGram Haas F1 Team</h1>
-        <hr width="500px" color="black">
-        <a href="index.html" class="back-button">Back to Teams</a>
-    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="https://media.formula1.com/image/upload/f_auto,c_limit,w_285,q_auto/f_auto/q_auto/fom-website/etc/designs/fom-website/images/F1_75_Logo" alt="F1 Logo" class="nav-logo">
+        <div class="logo-text">2025 F1 Championship</div>
+        <div class="nav-links">
+            <a href="index.html">Teams</a>
+            <a href="#">Drivers</a>
+            <a href="#">Standings</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
 
-    <div class="content-container">
-        <!-- Left Section: Team Info -->
-        <div class="team-info-container">
-            <h2>Team Information</h2>
-            <div class="team-info">
-                <div class="info-item"><span>Full Team Name:</span> MoneyGram Haas F1 Team</div>
-                <div class="info-item"><span>Base:</span> Kannapolis, United States</div>
-                <div class="info-item"><span>Team Chief:</span> Ayao Komatsu</div>
-                <div class="info-item"><span>Technical Chief:</span> Andrea De Zordo</div>
-                <div class="info-item"><span>Chassis:</span> VF-25</div>
-                <div class="info-item"><span>Power Unit:</span> Ferrari</div>
-                <div class="info-item"><span>First Team Entry:</span> 2016</div>
-                <div class="info-item"><span>World Championships:</span> 0</div>
-                <div class="info-item"><span>Highest Race Finish:</span> 4 (x1)</div>
-                <div class="info-item"><span>Pole Positions:</span> 1</div>
-                <div class="info-item"><span>Fastest Laps:</span> 3</div>
+    <!-- Team Header -->
+    <header class="team-header" style="background: linear-gradient( #d3d3d3 55%, #ff0000 110%);">
+        <div class="team-header-content">
+            <div class="team-logo-title">
+                <img src="https://media.formula1.com/content/dam/fom-website/teams/2025/haas.png" alt="Haas Logo" class="team-main-logo">
+                <div class="team-titles">
+                    <h1>MoneyGram Haas</h1>
+                    <h2>MoneyGram Haas F1 Team</h2>
+                </div>
+            </div>
+            <div class="team-stats">
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">World Championships</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Race Wins</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Pole Positions</div>
+                </div>
             </div>
         </div>
+    </header>
 
-        <!-- Right Section: Drivers Info -->
-        <div class="drivers-container">
-            <h2>Drivers</h2>
+    <!-- Main Content -->
+    <main class="team-main-content">
+        <!-- Team Details Section -->
+        <section class="team-details-section">
+            <div class="team-details-container">
+                <div class="team-details-card">
+                    <h3>Team Details</h3>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Full Team Name</span>
+                            <span class="detail-value">MoneyGram Haas F1 Team</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Base</span>
+                            <span class="detail-value">Kannapolis, United States</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Team Principal</span>
+                            <span class="detail-value">Ayao Komatsu</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Technical Chief</span>
+                            <span class="detail-value">Andrea De Zordo</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Chassis</span>
+                            <span class="detail-value">VF-25</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Power Unit</span>
+                            <span class="detail-value">Ferrari</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">First Entry</span>
+                            <span class="detail-value">2016</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Fastest Laps</span>
+                            <span class="detail-value">3</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Highest Race Finish</span>
+                            <span class="detail-value">4 (x1)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <!-- Driver Box 1 - Esteban Ocon -->
-            <a href="haasocon.html">
-                <div class="driver-box">
+        <!-- Drivers Section -->
+        <section class="drivers-section">
+            <h2 class="section-title">2025 Drivers</h2>
+            <div class="drivers-grid">
+                <a href="haasocon.html" class="driver-card">
+                    <div class="driver-number">31</div>
                     <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/ocon" alt="Esteban Ocon">
-                    <h2>Esteban Ocon</h2>
-                </div>
-            </a>
-
-            <!-- Driver Box 2 - Oliver Bearman -->
-            <a href="haasbearman.html">
-                <div class="driver-box">
+                    <div class="driver-info">
+                        <h3>Esteban Ocon</h3>
+                        <div class="driver-flag">🇫🇷</div>
+                    </div>
+                </a>
+                
+                <a href="haasbearman.html" class="driver-card">
+                    <div class="driver-number">50</div>
                     <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/bearman" alt="Oliver Bearman">
-                    <h2>Oliver Bearman</h2>
-                </div>
-            </a>
-        </div>
-    </div>
+                    <div class="driver-info">
+                        <h3>Oliver Bearman</h3>
+                        <div class="driver-flag">🇬🇧</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
 
+    <script src="javascript/theme.js" defer></script>
 </body>
 </html>

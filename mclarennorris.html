@@ -3,68 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lando Norris - McLaren</title>
+    <title>Lando Norris | McLaren F1 Driver</title>
     <link rel="stylesheet" href="css/driver.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" type="image/png">
 </head>
 <body>
 
-    <header>
-        <h1>Lando Norris - McLaren</h1>
-        <hr width="500px" color="black">
-        <a href="mclaren.html" class="back-button">Back to Team</a>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="https://media.formula1.com/image/upload/f_auto,c_limit,w_285,q_auto/f_auto/q_auto/fom-website/etc/designs/fom-website/images/F1_75_Logo" alt="F1 Logo" class="nav-logo">
+        <div class="logo-text">2025 F1 Championship</div>
+        <div class="nav-links">
+            <a href="index.html">Teams</a>
+            <a href="#">Drivers</a>
+            <a href="#">Standings</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
+
+    <!-- Driver Header -->
+    <header class="driver-header" style="background: linear-gradient(#ff8810 0%, #ff5100 100%);"> 
+        <div class="driver-header-content">
+            <div class="driver-number">4</div>
+            <div class="driver-name">
+                <h1>Lando Norris</h1>
+                <h2>McLaren F1 Team</h2>
+            </div>
+            <div class="driver-flag">🇬🇧</div>
+        </div>
+        <div class="driver-image">
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/norris" alt="Lando Norris">
+        </div>
     </header>
 
-    <div class="content-container">
-        <div class="driver-info-container">
-            <!-- Driver Information (left side) -->
-            <div class="driver-info">
-                <h2>Driver Information</h2>
-                <div class="driver-info">
-                    <div class="info-item"><span>Team:</span> McLaren</div>
-                    <div class="info-item"><span>Country:</span> United Kingdom</div>
-                    <div class="info-item"><span>Podiums:</span> 29</div>
-                    <div class="info-item"><span>Points:</span> 1069</div>
-                    <div class="info-item"><span>Grands Prix Entered:</span> 131</div>
-                    <div class="info-item"><span>World Championships:</span> 0</div>
-                    <div class="info-item"><span>Highest Race Finish:</span> 1 (x5)</div>
-                    <div class="info-item"><span>Highest Grid Position:</span> 1</div>
-                    <div class="info-item"><span>Date of Birth:</span> 13/11/1999</div>
-                    <div class="info-item"><span>Place of Birth:</span> Bristol, England</div>
+    <!-- Main Content -->
+    <main class="driver-content">
+      
+
+        <!-- Details Section -->
+        <section class="team-details-section">
+            <div class="team-details-card">
+                <h3>Driver Details</h3>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <span class="detail-label">Team</span>
+                        <span class="detail-value">McLaren</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Country</span>
+                        <span class="detail-value">United Kingdom</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Date of Birth</span>
+                        <span class="detail-value">13/11/1999</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Place of Birth</span>
+                        <span class="detail-value">Bristol, England</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Podiums</span>
+                        <span class="detail-value">29</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Wins</span>
+                        <span class="detail-value">5</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Points</span>
+                        <span class="detail-value">1069</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Grands Prix</span>
+                        <span class="detail-value">131</span>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Driver Image (right side) -->
-            <div class="driver-image">
-                <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/norris" alt="Lando Norris">
+        <!-- Bio Section -->
+        <section class="team-details-section">
+            <div class="team-details-card">
+                <h3>Biography</h3>
+                <div class="bio-content">
+                    <p>Lando Norris may not be named after Star Wars rebel Lando Calrissian - his Mum just liked the moniker - but he has flair and fighting spirit in bountiful supply.</p>
+                    <p>McLaren had the British teenager on their books for two years before fast-tracking him into F1's galaxy of stars in 2019. A firecracker in his junior career, with a penchant for pole positions and wheel-to-wheel tussles, Norris didn't let them down.</p>
+                    <p>Paired with the highly-rated - and far more experienced - Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.</p>
+                    <p>A maiden podium came in 2020, with more following in the subsequent two seasons - he narrowly missed out on a win at Russia 2021 - as he dominated another more senior team mate, Daniel Ricciardo, to firmly establish himself in F1's top tier.</p>
+                    <p>It was the 2024 season that finally brought Norris his breakthrough win - along with three more - as he became the biggest challenger to Max Verstappen's drivers' crown and led McLaren to their first constructors' title since 1998.</p>
+                    <p>Away from the track, Norris brims with a modest charm and an artistic side sees him design and paint his own race gear as a hobby. The focus for the future is allying artistry and ambition on track as McLaren rely on the promise of youth to take them back to the top.</p>
+                    <p>Norris hopes the downforce will be with him...</p>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
-    <!-- Biography Section -->
-    <div class="biography-container">
-        <h2>Biography</h2>
-        <p>
-            Lando Norris may not be named after Star Wars rebel Lando Calrissian - his Mum just liked the moniker - but he has flair and fighting spirit in bountiful supply.
-        </p>
-        <p>
-            McLaren had the British teenager on their books for two years before fast-tracking him into F1’s galaxy of stars in 2019. A firecracker in his junior career, with a penchant for pole positions and wheel-to-wheel tussles, Norris didn’t let them down.
-        </p>
-        <p>
-            Paired with the highly-rated – and far more experienced – Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.
-        </p>
-        <p>
-            A maiden podium came in 2020, with more following in the subsequent two seasons – he narrowly missed out on a win at Russia 2021 – as he dominated another more senior team mate, Daniel Ricciardo, to firmly establish himself in F1’s top tier.
-        </p>
-        <p>
-            It was the 2024 season that finally brought Norris his breakthrough win – along with three more – as he became the biggest challenger to Max Verstappen’s drivers’ crown and led McLaren to their first constructors’ title since 1998.
-        </p>
-        <p>
-            Away from the track, Norris brims with a modest charm and an artistic side sees him design and paint his own race gear as a hobby. The focus for the future is allying artistry and ambition on track as McLaren rely on the promise of youth to take them back to the top.
-        </p>
-        <p>
-            Norris hopes the downforce will be with him…
-        </p>
-    </div>
-
+    <script src="javascript/theme.js" defer></script>
 </body>
 </html>

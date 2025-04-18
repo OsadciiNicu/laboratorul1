@@ -1,87 +1,116 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>2025F1</title>
-        <link rel="stylesheet" href="css/indexdesign.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Teams 2025</title>
+    <link rel="stylesheet" href="css/indexdesign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" type="image/png">
+</head>
+<body>
 
-        <header>
-            <div class="imgg">
-                    <!-- Image on the top left, centered within the area -->
-        <img src="images/F1logo.png" alt="Formula 1 Logo" class="img-left">
-        <div class="header">
-            <h1>2025 Formula One World Championship</h1>
-           
-            <!-- "Choose a team" text inside a red box with sharper corners -->
-            <h2>Select a team</h2> </div>
-        <!-- Image on the top right, replace with FIA-Logo.png -->
-        <img src="images/FIA-Logo.png" alt="FIA Logo" class="img-right">
-      
-        </div>
+  <!-- Navigation Bar -->
+  <nav>
+    <img src="https://media.formula1.com/image/upload/f_auto,c_limit,w_285,q_auto/f_auto/q_auto/fom-website/etc/designs/fom-website/images/F1_75_Logo" alt="F1 Logo" class="nav-logo">
+    <div class="logo-text">2025 F1 Championship</div>
+    <div class="nav-links">
+        <a href="index.html">Teams</a>
+        <a href="#">Drivers</a>
+        <a href="#">Standings</a>
+    </div>
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+</nav>
 
-        </header>
+    <!-- Page Title -->
+    <header class="teams-header">
+        <h1>Teams</h1>
+    </header>
 
+    <!-- Teams Grid -->
+    <section class="team-grid">
 
-
-        <div class="team-container">
-            <div class="team-row">
-                <a href="mclaren.html" class="team">
-                    <img src="images/McLarenlogo.png" alt="McLaren Logo">
-                    McLaren
-                </a>
-                <a href="mercedes.html" class="team">
-                    <img src="images/Mercedeslogo.png" alt="Mercedes Logo">
-                    Mercedes
-                </a>
+        <a href="mclaren.html" class="team-card">
+            <div class="team-info">
+                <img src="images/McLarenlogo.png" alt="McLaren" class="team-logo">
+                <span>McLaren</span>
             </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mclaren.png" alt="McLaren Car" class="team-car">
+        </a>
 
-            <div class="team-row">
-                <a href="redbullracing.html" class="team">
-                    <img src="images/redbullracing.png" alt="Red Bull Racing Logo">
-                    Red Bull Racing
-                </a>
-                <a href="ferrari.html" class="team">
-                    <img src="images/ferrarilogo.png" alt="Ferrari Logo">
-                    Ferrari
-                </a>
+        <a href="mercedes.html" class="team-card">
+            <div class="team-info">
+                <img src="images/Mercedeslogo.png" alt="Mercedes" class="team-logo">
+                <span>Mercedes</span>
             </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/mercedes.png" alt="Mercedes Car" class="team-car">
+        </a>
 
-            <div class="team-row">
-                <a href="williams.html" class="team">
-                    <img src="images/Logo_Williams_F1.png" alt="Williams Logo">
-                    Williams
-                </a>
-                <a href="haas.html" class="team">
-                    <img src="images/haasogo-removebg-preview.png" alt="Haas Logo">
-                    Haas
-                </a>
+        <a href="redbullracing.html" class="team-card">
+            <div class="team-info">
+                <img src="https://wallpapers.com/images/hd/red-bull-pictures-zo19obew3axn6w2g.jpg" alt="Red Bull Racing" class="team-logo">
+                <span>Red Bull Racing</span>
             </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/red-bull-racing.png" alt="Red Bull Car" class="team-car">
+        </a>
 
-            <div class="team-row">
-                <a href="astonmartin.html" class="team">
-                    <img src="images/astonmartinlogo-removebg-preview.png" alt="Aston Martin Logo">
-                    Aston Martin
-                </a>
-                <a href="racingbulls.html" class="team">
-                    <img src="images/racingbullslogo.png" alt="Racing Bulls Logo">
-                    Racing Bulls
-                </a>
+        <a href="ferrari.html" class="team-card">
+            <div class="team-info">
+                <img src="images/ferrarilogo.png" alt="Ferrari" class="team-logo">
+                <span>Ferrari</span>
             </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/ferrari.png" alt="Ferrari Car" class="team-car">
+        </a>
 
-            <div class="team-row">
-                <a href="ks.html" class="team">
-                    <img src="images/kslogo.png" alt="Kick Sauber Logo">
-                    Kick Sauber
-                </a>
-                <a href="alpine.html" class="team">
-                    <img src="images/alpinelogo-removebg-preview.png" alt="Alpine Logo">
-                    Alpine
-                </a>
+        <a href="williams.html" class="team-card">
+            <div class="team-info">
+                <img src="images/Logo_Williams_F1.png" alt="Williams" class="team-logo">
+                <span>Williams</span>
             </div>
-        </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/williams.png" alt="Williams Car" class="team-car">
+        </a>
 
-    </body>
+        <a href="haas.html" class="team-card">
+            <div class="team-info">
+                <img src="images/haasogo-removebg-preview.png" alt="Haas" class="team-logo">
+                <span>Haas</span>
+            </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/haas.png" alt="Haas Car" class="team-car">
+        </a>
+
+        <a href="astonmartin.html" class="team-card">
+            <div class="team-info">
+                <img src="https://seeklogo.com/images/A/aston-martin-formula-one-race-logo-0D6CEA5C3B-seeklogo.com.png" alt="Aston Martin" class="team-logo">
+                <span>Aston Martin</span>
+            </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/aston-martin.png" alt="Aston Martin Car" class="team-car">
+        </a>
+
+        <a href="racingbulls.html" class="team-card">
+            <div class="team-info">
+                <img src="images/racingbullslogo.png" alt="Racing Bulls" class="team-logo">
+                <span>Racing Bulls</span>
+            </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/racing-bulls.png" alt="Racing Bulls Car" class="team-car">
+        </a>
+
+        <a href="ks.html" class="team-card">
+            <div class="team-info">
+                <img src="images/kslogo.png" alt="Kick Sauber" class="team-logo">
+                <span>Kick Sauber</span>
+            </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/kick-sauber.png" alt="Kick Sauber Car" class="team-car">
+        </a>
+
+        <a href="alpine.html" class="team-card">
+            <div class="team-info">
+                <img src="images/alpinelogo-removebg-preview.png" alt="Alpine" class="team-logo">
+                <span>Alpine</span>
+            </div>
+            <img src="https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2025/alpine.png" alt="Alpine Car" class="team-car">
+        </a>
+
+    </section>
+    <script src="javascript/theme.js" defer></script>
+</body>
 </html>
-
-

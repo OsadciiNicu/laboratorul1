@@ -3,57 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercedes-AMG PETRONAS Formula 1 Team</title>
+    <title>Mercedes-AMG PETRONAS Formula 1 Team | 2025 F1 Championship</title>
     <link rel="stylesheet" href="css/teampagedesign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" type="image/png">
 </head>
 <body>
 
-    <header>
-        <h1>Mercedes-AMG PETRONAS Formula 1 Team</h1>
-        <hr width="500px" color="black">
-        <a href="index.html" class="back-button">Back to Teams</a>
-    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="https://media.formula1.com/image/upload/f_auto,c_limit,w_285,q_auto/f_auto/q_auto/fom-website/etc/designs/fom-website/images/F1_75_Logo" alt="F1 Logo" class="nav-logo">
+        <div class="logo-text">2025 F1 Championship</div>
+        <div class="nav-links">
+            <a href="index.html">Teams</a>
+            <a href="#">Drivers</a>
+            <a href="#">Standings</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
 
-    <div class="content-container">
-        <!-- Left Section: Team Info -->
-        <div class="team-info-container">
-            <h2>Team Information</h2>
-            <div class="team-info">
-                <div class="info-item"><span>Full Team Name:</span> Mercedes-AMG PETRONAS Formula One Team</div>
-                <div class="info-item"><span>Base:</span> Brackley, United Kingdom</div>
-                <div class="info-item"><span>Team Chief:</span> Toto Wolff</div>
-                <div class="info-item"><span>Technical Chief:</span> James Allison</div>
-                <div class="info-item"><span>Chassis:</span> W16</div>
-                <div class="info-item"><span>Power Unit:</span> Mercedes</div>
-                <div class="info-item"><span>First Team Entry:</span> 1970</div>
-                <div class="info-item"><span>World Championships:</span> 8</div>
-                <div class="info-item"><span>Highest Race Finish:</span> 1 (x120)</div>
-                <div class="info-item"><span>Pole Positions:</span> 133</div>
-                <div class="info-item"><span>Fastest Laps:</span> 100</div>
+    <!-- Team Header -->
+    <header class="team-header" style="background: linear-gradient(#00ffea 20%, #000000 100%);">
+        <div class="team-header-content">
+            <div class="team-logo-title">
+                <img src="https://media.formula1.com/content/dam/fom-website/teams/2025/mercedes.png" alt="Mercedes Logo" class="team-main-logo">
+                <div class="team-titles">
+                    <h1>Mercedes</h1>
+                    <h2>Mercedes-AMG PETRONAS F1 Team</h2>
+                </div>
+            </div>
+            <div class="team-stats">
+                <div class="stat-item">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">World Championships</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">120</div>
+                    <div class="stat-label">Race Wins</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">133</div>
+                    <div class="stat-label">Pole Positions</div>
+                </div>
             </div>
         </div>
+    </header>
 
-        <!-- Right Section: Drivers Info -->
-        <div class="drivers-container">
-            <h2>Drivers</h2>
+    <!-- Main Content -->
+    <main class="team-main-content">
+        <!-- Team Details Section -->
+        <section class="team-details-section">
+            <div class="team-details-container">
+                <div class="team-details-card">
+                    <h3>Team Details</h3>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Full Team Name</span>
+                            <span class="detail-value">Mercedes-AMG PETRONAS Formula One Team</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Base</span>
+                            <span class="detail-value">Brackley, United Kingdom</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Team Principal</span>
+                            <span class="detail-value">Toto Wolff</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Technical Chief</span>
+                            <span class="detail-value">James Allison</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Chassis</span>
+                            <span class="detail-value">W16</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Power Unit</span>
+                            <span class="detail-value">Mercedes</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">First Entry</span>
+                            <span class="detail-value">1970</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Fastest Laps</span>
+                            <span class="detail-value">100</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Highest Race Finish</span>
+                            <span class="detail-value">1 (x120)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <!-- Driver Box 1 - George Russell -->
-            <a href="mercedesrussell.html">
-                <div class="driver-box">
+        <!-- Drivers Section -->
+        <section class="drivers-section">
+            <h2 class="section-title">2025 Drivers</h2>
+            <div class="drivers-grid">
+                <a href="mercedesrussell.html" class="driver-card">
+                    <div class="driver-number">63</div>
                     <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/russell" alt="George Russell">
-                    <h2>George Russell</h2>
-                </div>
-            </a>
-
-            <!-- Driver Box 2 - Kimi Antonelli -->
-            <a href="mercedesantonelli.html">
-                <div class="driver-box">
+                    <div class="driver-info">
+                        <h3>George Russell</h3>
+                        <div class="driver-flag">🇬🇧</div>
+                    </div>
+                </a>
+                
+                <a href="mercedesantonelli.html" class="driver-card">
+                    <div class="driver-number">47</div>
                     <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/antonelli" alt="Kimi Antonelli">
-                    <h2>Kimi Antonelli</h2>
-                </div>
-            </a>
-        </div>
-    </div>
+                    <div class="driver-info">
+                        <h3>Kimi Antonelli</h3>
+                        <div class="driver-flag">🇮🇹</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
 
+    <script src="javascript/theme.js" defer></script>
 </body>
 </html>

@@ -3,57 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlassian Williams Racing</title>
+    <title>Atlassian Williams Racing | 2025 F1 Championship</title>
     <link rel="stylesheet" href="css/teampagedesign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" type="image/png">
 </head>
 <body>
 
-    <header>
-        <h1>Atlassian Williams Racing</h1>
-        <hr width="500px" color="black">
-        <a href="index.html" class="back-button">Back to Teams</a>
-    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="https://media.formula1.com/image/upload/f_auto,c_limit,w_285,q_auto/f_auto/q_auto/fom-website/etc/designs/fom-website/images/F1_75_Logo" alt="F1 Logo" class="nav-logo">
+        <div class="logo-text">2025 F1 Championship</div>
+        <div class="nav-links">
+            <a href="index.html">Teams</a>
+            <a href="#">Drivers</a>
+            <a href="#">Standings</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
 
-    <div class="content-container">
-        <!-- Left Section: Team Info -->
-        <div class="team-info-container">
-            <h2>Team Information</h2>
-            <div class="team-info">
-                <div class="info-item"><span>Full Team Name:</span> Atlassian Williams Racing</div>
-                <div class="info-item"><span>Base:</span> Grove, United Kingdom</div>
-                <div class="info-item"><span>Team Chief:</span> James Vowles</div>
-                <div class="info-item"><span>Technical Chief:</span> Pat Fry</div>
-                <div class="info-item"><span>Chassis:</span> FW47</div>
-                <div class="info-item"><span>Power Unit:</span> Mercedes</div>
-                <div class="info-item"><span>First Team Entry:</span> 1978</div>
-                <div class="info-item"><span>World Championships:</span> 9</div>
-                <div class="info-item"><span>Highest Race Finish:</span> 1 (x114)</div>
-                <div class="info-item"><span>Pole Positions:</span> 128</div>
-                <div class="info-item"><span>Fastest Laps:</span> 133</div>
+    <!-- Team Header -->
+    <header class="team-header" style="background: linear-gradient(#0011ff 50%, #000000 110%);">
+        <div class="team-header-content">
+            <div class="team-logo-title">
+                <img src="https://media.formula1.com/content/dam/fom-website/teams/2025/williams.png" alt="Williams Logo" class="team-main-logo">
+                <div class="team-titles">
+                    <h1>Atlassian Williams</h1>
+                    <h2>Atlassian Williams Racing</h2>
+                </div>
+            </div>
+            <div class="team-stats">
+                <div class="stat-item">
+                    <div class="stat-number">9</div>
+                    <div class="stat-label">World Championships</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">114</div>
+                    <div class="stat-label">Race Wins</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">128</div>
+                    <div class="stat-label">Pole Positions</div>
+                </div>
             </div>
         </div>
+    </header>
 
-        <!-- Right Section: Drivers Info -->
-        <div class="drivers-container">
-            <h2>Drivers</h2>
+    <!-- Main Content -->
+    <main class="team-main-content">
+        <!-- Team Details Section -->
+        <section class="team-details-section">
+            <div class="team-details-container">
+                <div class="team-details-card">
+                    <h3>Team Details</h3>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="detail-label">Full Team Name</span>
+                            <span class="detail-value">Atlassian Williams Racing</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Base</span>
+                            <span class="detail-value">Grove, United Kingdom</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Team Principal</span>
+                            <span class="detail-value">James Vowles</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Technical Chief</span>
+                            <span class="detail-value">Pat Fry</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Chassis</span>
+                            <span class="detail-value">FW47</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Power Unit</span>
+                            <span class="detail-value">Mercedes</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">First Entry</span>
+                            <span class="detail-value">1978</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Fastest Laps</span>
+                            <span class="detail-value">133</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Highest Race Finish</span>
+                            <span class="detail-value">1 (x114)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <!-- Driver Box 1 - Alexander Albon -->
-            <a href="williamsalbon.html">
-                <div class="driver-box">
+        <!-- Drivers Section -->
+        <section class="drivers-section">
+            <h2 class="section-title">2025 Drivers</h2>
+            <div class="drivers-grid">
+                <a href="williamsalbon.html" class="driver-card">
+                    <div class="driver-number">23</div>
                     <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/albon" alt="Alexander Albon">
-                    <h2>Alexander Albon</h2>
-                </div>
-            </a>
-
-            <!-- Driver Box 2 - Carlos Sainz -->
-            <a href="williamssainz.html">
-                <div class="driver-box">
+                    <div class="driver-info">
+                        <h3>Alexander Albon</h3>
+                        <div class="driver-flag">🇹🇭</div>
+                    </div>
+                </a>
+                
+                <a href="williamssainz.html" class="driver-card">
+                    <div class="driver-number">55</div>
                     <img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/sainz" alt="Carlos Sainz">
-                    <h2>Carlos Sainz</h2>
-                </div>
-            </a>
-        </div>
-    </div>
+                    <div class="driver-info">
+                        <h3>Carlos Sainz</h3>
+                        <div class="driver-flag">🇪🇸</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
 
+    <script src="javascript/theme.js" defer></script>
 </body>
 </html>
